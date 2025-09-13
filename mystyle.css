@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../resources/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: #350616;
+    font-family: Libre Baskerville;
+    color: aliceblue;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    border: 1px solid #433a29;
+    background-color: #433a29;
+    
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin-left: 70px;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: Libre Baskerville;
+    padding-left: 0px;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Libre Baskerville;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #abac97;
+}
+
+.content{
+    display: flex;
+    width: 500%;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newarr{
+    margin: 50px;
+    text-align: center;
+}
+.container{
+    margin: 25px 0 0 200px;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255blue, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+
+}
+
+.slogan{
+    text-align: center;
+    font-family: Libre Baskerville;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#shortslo{
+    font-weight: bold;
+    margin: 30px 30px 30px 30px;
+}
+
+
+.look-section{
+    display:flex;
+    align-items: flex-start;
+    gap: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 0px;
+}
+
+.mixoutfit{
+    width: 300px;
+    height: auto;
+    flex: 0 0 auto;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    max-width: 640px;
+}
+
+.text h2{
+    margin: 150px 0 30px;
+    font-size: 28px;
+    line-height: 1.2;
+
+}
+
+.text p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.price{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#pricehead{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 60px;
+}
+
+.inform{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
