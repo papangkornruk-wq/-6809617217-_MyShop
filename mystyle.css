@@ -21,7 +21,6 @@ body{
     margin: auto;
     border: 1px solid #433a29;
     background-color: #433a29;
-    
 }
 
 .icon{
@@ -87,14 +86,18 @@ section{
 .newarr{
     margin: 50px;
     text-align: center;
+    align-items: center;
 }
 .container{
-    margin: 25px 0 0 200px;
+    
     width: 70%;
     height: 350px;
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
 }
 
 .container img{
@@ -110,19 +113,6 @@ section{
     width: 25%;
 
 }
-
-.slogan{
-    text-align: center;
-    font-family: Libre Baskerville;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-}
-#shortslo{
-    font-weight: bold;
-    margin: 30px 30px 30px 30px;
-}
-
 
 .look-section{
     display:flex;
@@ -157,19 +147,20 @@ section{
     line-height: 1.6;
 }
 
-.price{
-    margin-top: 0px;
-    padding-top: 0px;
-}
-#pricehead{
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 60px;
-}
 
-.inform{
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+.brandname{
+    height: 300px;
+    width: 100%;
+    background-image: url(resources/rack2.jpg);
+    background-size: cover;
+    display: flex;
+    margin-top: auto;
     align-items: center;
     justify-content: center;
 }
+
+.brandname h1{
+   font-size: 70px;
+}
+
